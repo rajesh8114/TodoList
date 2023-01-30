@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Container {
+  background-color: rgb(26, 24, 24);
+  width: 100%;
+  height: 85vh;
+}
+h1 {
+  background-image: linear-gradient(yellow,red);
+  height: 15vh;
+  color: white;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 3pc;
+}
+.filter_cont {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+.Btn {
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5pc;
+  border: none;
+  margin: 20px 20px;
+  width: 150px;
+  /* background-color: blue; */
+}
+.all, .js-btn-add ,.delete{
+  background-color: blue;
+}
+.Btn:hover {
+  box-shadow: 5px 5px 5px cadetblue;
+  font-size: 1.8pc;
+}
+.high{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.moderate{
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+
+}
+.low ,.edit{
+   background-color: green;
+   display: flex;
+   justify-content: space-between;
+
+}
+.Form {
+  /* background-color: rgb(140, 0, 255); */
+  display: flex;
+  justify-content: space-around;
+  /* width: 100px; */
+}
+#priority_select, .Form-input {
+  margin-top: 20px;
+  margin-left: -40px;
+  /* width: 100px; */
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  font-size: 1.5pc;
+}
+.delete ,.edit {
+  color: white;
+  font-size: larger;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
